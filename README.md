@@ -69,28 +69,20 @@ The mobile app needs to connect to your Laravel API. For local development, you 
 herd share
 
 # Update .env with the provided URL
-API_URL=https://your-app.herd.sh
+API_URL=https://ABC123.sharedwithexpose.com
 ```
 
 #### Option 2: Using ngrok
 
 ```bash
-# Start ngrok tunnel
-ngrok http 80
-
-# Update .env with the provided URL
-API_URL=https://abc123.ngrok.io
-```
-
-#### Option 3: Using Artisan Serve
-
-```bash
-# Start the development server
+# Start local laravel server
 php artisan serve
 
-# For local network access, use your machine's IP
-# Update .env with your local IP
-API_URL=http://192.168.1.100:8000
+# Start ngrok tunnel
+ngrok http 8000
+
+# Update .env with the provided URL
+API_URL=https://ABC123.ngrok-free.app
 ```
 
 ### Running the Mobile App
