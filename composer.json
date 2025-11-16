@@ -9,8 +9,8 @@
     ],
     "repositories": {
         "nativephp": {
-            "type": "path",
-            "url": "../mobile"
+            "type": "composer",
+            "url": "https://nativephp.composer.sh"
         }
     },
     "license": "MIT",
@@ -20,7 +20,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6.4",
-        "nativephp/mobile": "*"
+        "nativephp/mobile": "^2.0.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
