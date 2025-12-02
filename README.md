@@ -15,30 +15,6 @@ A complete mobile app starter kit built with Laravel, NativePHP, Livewire, and T
 - 🌊 Smooth page transitions
 - 📖 In-app browser for external links
 
-## Installation
-
-### Using Laravel Installer
-
-```bash
-laravel new my-app --using=nativephp/mobile-api-starter-kit
-cd my-app
-cp .env.example .env
-php artisan native:install
-php artisan native:run
-```
-
-### Using Herd as a Custom Starter Kit
-
-1. Add this repository as a custom starter kit in Herd
-2. Create a new site using the starter kit
-3. Run the setup commands:
-
-```bash
-cp .env.example .env
-php artisan native:install
-php artisan native:run
-```
-
 ## Requirements
 
 - PHP 8.3+
@@ -46,6 +22,15 @@ php artisan native:run
 - Node.js & NPM
 - Android Studio (for Android development)
 - Xcode (for iOS development, macOS only)
+
+## Installation
+
+```shell
+laravel new my-app --using=nativephp/mobile-api-starter-kit
+cd my-app
+cp .env.example .env
+php artisan native:install
+```
 
 ## What's Included
 
@@ -88,13 +73,13 @@ API_URL=https://ABC123.ngrok-free.app
 ### Running the Mobile App
 
 ```bash
-# Run on iOS simulator (macOS only)
+# Run on iOS simulator/device (macOS only)
 php artisan native:run ios
 
 # Run on Android emulator/device
 php artisan native:run android
 
-# Watch for changes (hot reload)
+# Hot reloading
 php artisan native:watch ios
 php artisan native:watch android
 ```
