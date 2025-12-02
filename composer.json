@@ -1,11 +1,11 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/livewire-starter-kit",
+    "name": "nativephp/mobile-api-starter-kit",
     "type": "project",
-    "description": "The official Laravel starter kit for Livewire.",
+    "description": "The official NativePHP API starter kit for Mobile.",
     "keywords": [
         "laravel",
-        "framework"
+        "mobile-app"
     ],
     "repositories": {
         "nativephp": {
