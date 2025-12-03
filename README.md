@@ -22,6 +22,7 @@ A complete mobile app starter kit built with Laravel, NativePHP, Livewire, and T
 - Node.js & NPM
 - Android Studio (for Android development)
 - Xcode (for iOS development, macOS only)
+- NativePHP License
 
 ## Installation
 
@@ -73,6 +74,12 @@ API_URL=https://ABC123.ngrok-free.app
 ### Running the Mobile App
 
 ```bash
+# Install assets Android
+npm install && npm run build -- --mode=android
+
+# Install assets iOS
+npm install && npm run build -- --mode=ios
+
 # Run on iOS simulator/device (macOS only)
 php artisan native:run ios
 
