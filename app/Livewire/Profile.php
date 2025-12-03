@@ -93,6 +93,13 @@ class Profile extends Component
         }
     }
 
+    public function logout()
+    {
+        ApiClient::logout();
+
+        $this->redirect(route('login'));
+    }
+
     #[Layout('components.layouts.app', ['title' => 'Profile'])]
     public function render()
     {

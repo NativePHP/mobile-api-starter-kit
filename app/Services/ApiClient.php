@@ -4,6 +4,7 @@ namespace App\Services;
 
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Facades\Http;
+use Native\Mobile\Edge\Edge;
 use Native\Mobile\Facades\SecureStorage;
 
 class ApiClient
@@ -52,9 +53,9 @@ class ApiClient
     {
         static::post('/logout');
         SecureStorage::delete('api_token');
-        SecureStorage::delete('user_id');
         SecureStorage::delete('user_name');
         SecureStorage::delete('user_email');
-        SecureStorage::delete('biometric_verified');
+        nativephp_call('Edge.Set', json_encode(['components' => []]));
+//        Edge::clear();
     }
 }

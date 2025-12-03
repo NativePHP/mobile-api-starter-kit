@@ -74,7 +74,7 @@
 
         <button
             type="submit"
-            class="w-full rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-zinc-900"
+            class="w-full rounded-lg bg-blue-600 px-4 py-2 text-white "
             wire:loading.attr="disabled"
             wire:target="register"
         >
@@ -85,6 +85,6 @@
 
     <div class="text-center text-sm text-zinc-600 dark:text-zinc-400">
         <span>Already have an account?</span>
-        <a href="{{ route('login') }}" class="text-blue-600 hover:text-blue-700 dark:text-blue-400" wire:navigate>Log in</a>
+        <a href="{{ route('login') }}" class="text-blue-600 dark:text-blue-400" wire:navigate>Log in</a>
     </div>
 </div>

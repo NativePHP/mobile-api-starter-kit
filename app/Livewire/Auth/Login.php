@@ -3,6 +3,7 @@
 namespace App\Livewire\Auth;
 
 use App\Services\ApiClient;
+use Illuminate\Support\Str;
 use Livewire\Attributes\Layout;
 use Livewire\Attributes\Rule;
 use Livewire\Component;
@@ -33,7 +34,6 @@ class Login extends Component
             $data = $response->json();
 
             SecureStorage::set('api_token', $data['token']);
-            SecureStorage::set('user_id', $data['user']['id']);
             SecureStorage::set('user_name', $data['user']['name']);
             SecureStorage::set('user_email', $data['user']['email']);
 
@@ -41,6 +41,14 @@ class Login extends Component
         } else {
             $this->errorMessage = $response->json('message', 'Invalid credentials');
         }
+    }
+
+    public function skipLogin()
+    {
+        SecureStorage::set('api_token', Str::uuid()->toString());
+        SecureStorage::set('user_name', 'Simon Hamp');
+        SecureStorage::set('user_email', 'simon@nativephp.com');
+        $this->redirect(route('home'));
     }
 
     #[Layout('components.layouts.auth')]

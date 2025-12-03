@@ -4,8 +4,8 @@ namespace App\Livewire\Auth;
 
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Layout;
-use Livewire\Attributes\On;
 use Livewire\Component;
+use Native\Mobile\Attributes\OnNative;
 use Native\Mobile\Events\Biometric\Completed;
 use Native\Mobile\Facades\Biometrics;
 use Native\Mobile\Facades\SecureStorage;
@@ -21,7 +21,7 @@ class Check extends Component
         }
     }
 
-    #[On('native:'.Completed::class)]
+    #[OnNative(Completed::class)]
     public function handleBiometricAuth(bool $success)
     {
         if ($success) {

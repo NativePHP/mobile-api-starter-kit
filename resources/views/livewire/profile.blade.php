@@ -35,7 +35,7 @@
 
             <button
                 type="submit"
-                class="w-full rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-zinc-900"
+                class="w-full rounded-lg bg-blue-600 px-4 py-2 text-white "
                 wire:loading.attr="disabled"
                 wire:target="updateProfile"
             >
@@ -95,7 +95,7 @@
 
             <button
                 type="submit"
-                class="w-full rounded-lg bg-blue-600 px-4 py-2 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 dark:focus:ring-offset-zinc-900"
+                class="w-full rounded-lg bg-blue-600 px-4 py-2 text-white"
                 wire:loading.attr="disabled"
                 wire:target="updatePassword"
             >
@@ -103,5 +103,14 @@
                 <span class="hidden" wire:loading.class.remove="hidden" wire:target="updatePassword">Updating...</span>
             </button>
         </form>
+    </div>
+
+    <div class="rounded-lg bg-white p-6 shadow dark:bg-zinc-800">
+        <button
+            class="w-full rounded-lg bg-red-600 px-4 py-2 text-white"
+            wire:loading.attr="disabled"
+        >
+            <span wire:click="logout">Logout</span>
+        </button>
     </div>
 </div>

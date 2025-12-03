@@ -3,6 +3,7 @@ import {
 } from 'vite';
 import laravel from 'laravel-vite-plugin';
 import tailwindcss from "@tailwindcss/vite";
+import { nativephpMobile } from './vendor/nativephp/mobile/resources/js/vite-plugin.js';
 
 export default defineConfig({
     plugins: [
@@ -11,12 +12,6 @@ export default defineConfig({
             refresh: true,
         }),
         tailwindcss(),
-    ],
-    server: {
-        port: 5173,
-        cors: true,
-        hmr: {
-            host: '127.0.0.1',
-        },
-    },
+        nativephpMobile(),
+    ]
 });
