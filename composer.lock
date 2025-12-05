@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fdda9af3a372c1675d74ca1399eff63a",
+    "content-hash": "297661182f95349e95886412cc910c42",
     "packages": [
         {
             "name": "brick/math",
@@ -510,31 +510,31 @@
         },
         {
             "name": "fruitcake/php-cors",
-            "version": "v1.3.0",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fruitcake/php-cors.git",
-                "reference": "3d158f36e7875e2f040f37bc0573956240a5a38b"
+                "reference": "38aaa6c3fd4c157ffe2a4d10aa8b9b16ba8de379"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fruitcake/php-cors/zipball/3d158f36e7875e2f040f37bc0573956240a5a38b",
-                "reference": "3d158f36e7875e2f040f37bc0573956240a5a38b",
+                "url": "https://api.github.com/repos/fruitcake/php-cors/zipball/38aaa6c3fd4c157ffe2a4d10aa8b9b16ba8de379",
+                "reference": "38aaa6c3fd4c157ffe2a4d10aa8b9b16ba8de379",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.4|^8.0",
-                "symfony/http-foundation": "^4.4|^5.4|^6|^7"
+                "php": "^8.1",
+                "symfony/http-foundation": "^5.4|^6.4|^7.3|^8"
             },
             "require-dev": {
-                "phpstan/phpstan": "^1.4",
+                "phpstan/phpstan": "^2",
                 "phpunit/phpunit": "^9",
-                "squizlabs/php_codesniffer": "^3.5"
+                "squizlabs/php_codesniffer": "^4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.2-dev"
+                    "dev-master": "1.3-dev"
                 }
             },
             "autoload": {
@@ -565,7 +565,7 @@
             ],
             "support": {
                 "issues": "https://github.com/fruitcake/php-cors/issues",
-                "source": "https://github.com/fruitcake/php-cors/tree/v1.3.0"
+                "source": "https://github.com/fruitcake/php-cors/tree/v1.4.0"
             },
             "funding": [
                 {
@@ -577,7 +577,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-12T05:21:21+00:00"
+            "time": "2025-12-03T09:33:47+00:00"
         },
         {
             "name": "graham-campbell/result-type",
@@ -1054,16 +1054,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v12.41.0",
+            "version": "v12.41.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "836045933b4f950d96151cbbaea89b8958303bd4"
+                "reference": "3e229b05935fd0300c632fb1f718c73046d664fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/836045933b4f950d96151cbbaea89b8958303bd4",
-                "reference": "836045933b4f950d96151cbbaea89b8958303bd4",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/3e229b05935fd0300c632fb1f718c73046d664fc",
+                "reference": "3e229b05935fd0300c632fb1f718c73046d664fc",
                 "shasum": ""
             },
             "require": {
@@ -1269,7 +1269,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2025-12-03T00:22:36+00:00"
+            "time": "2025-12-03T01:02:13+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -2081,16 +2081,16 @@
         },
         {
             "name": "livewire/livewire",
-            "version": "v3.7.0",
+            "version": "v3.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/livewire/livewire.git",
-                "reference": "f5f9efe6d5a7059116bd695a89d95ceedf33f3cb"
+                "reference": "214da8f3a1199a88b56ab2fe901d4a607f784805"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/livewire/livewire/zipball/f5f9efe6d5a7059116bd695a89d95ceedf33f3cb",
-                "reference": "f5f9efe6d5a7059116bd695a89d95ceedf33f3cb",
+                "url": "https://api.github.com/repos/livewire/livewire/zipball/214da8f3a1199a88b56ab2fe901d4a607f784805",
+                "reference": "214da8f3a1199a88b56ab2fe901d4a607f784805",
                 "shasum": ""
             },
             "require": {
@@ -2145,7 +2145,7 @@
             "description": "A front-end framework for Laravel.",
             "support": {
                 "issues": "https://github.com/livewire/livewire/issues",
-                "source": "https://github.com/livewire/livewire/tree/v3.7.0"
+                "source": "https://github.com/livewire/livewire/tree/v3.7.1"
             },
             "funding": [
                 {
@@ -2153,7 +2153,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2025-11-12T17:58:16+00:00"
+            "time": "2025-12-03T22:41:13+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2260,12 +2260,12 @@
         },
         {
             "name": "nativephp/mobile",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "dist": {
                 "type": "zip",
-                "url": "https://nativephp.composer.sh/download/a07db726-b0f6-4839-a15d-17980cb346b3/nativephp-2.0.1.zip",
-                "reference": "cd3d308657fe6d79c3219b19fb7dba905445d231",
-                "shasum": "1762a0fe49c25c76da0e885c57340b8cfe8415ab"
+                "url": "https://nativephp.composer.sh/download/a085c308-c06c-4d35-84d6-b49975bd9349/nativephp-2.1.0.zip",
+                "reference": "a0c9102ad1675a00ee7c9fd6a3f046c0c462b8c1",
+                "shasum": "0fb0df4d577c5dcb6ec26b8757fa9a330ebc0359"
             },
             "require": {
                 "ext-dom": "*",
@@ -2353,20 +2353,20 @@
                 "laravel",
                 "nativephp"
             ],
-            "time": "2025-12-01T19:40:43+00:00"
+            "time": "2025-12-05T19:40:33+00:00"
         },
         {
             "name": "nesbot/carbon",
-            "version": "3.10.3",
+            "version": "3.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f"
+                "reference": "bdb375400dcd162624531666db4799b36b64e4a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f",
-                "reference": "8e3643dcd149ae0fe1d2ff4f2c8e4bbfad7c165f",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/bdb375400dcd162624531666db4799b36b64e4a1",
+                "reference": "bdb375400dcd162624531666db4799b36b64e4a1",
                 "shasum": ""
             },
             "require": {
@@ -2374,9 +2374,9 @@
                 "ext-json": "*",
                 "php": "^8.1",
                 "psr/clock": "^1.0",
-                "symfony/clock": "^6.3.12 || ^7.0",
+                "symfony/clock": "^6.3.12 || ^7.0 || ^8.0",
                 "symfony/polyfill-mbstring": "^1.0",
-                "symfony/translation": "^4.4.18 || ^5.2.1 || ^6.0 || ^7.0"
+                "symfony/translation": "^4.4.18 || ^5.2.1 || ^6.0 || ^7.0 || ^8.0"
             },
             "provide": {
                 "psr/clock-implementation": "1.0"
@@ -2458,7 +2458,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-09-06T13:39:36+00:00"
+            "time": "2025-12-02T21:04:28+00:00"
         },
         {
             "name": "nette/schema",
@@ -6749,16 +6749,16 @@
         },
         {
             "name": "laravel/boost",
-            "version": "v1.8.3",
+            "version": "v1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/boost.git",
-                "reference": "26572e858e67334952779c0110ca4c378a44d28d"
+                "reference": "dbdef07edbf101049f6d308654ead2f4324de703"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/boost/zipball/26572e858e67334952779c0110ca4c378a44d28d",
-                "reference": "26572e858e67334952779c0110ca4c378a44d28d",
+                "url": "https://api.github.com/repos/laravel/boost/zipball/dbdef07edbf101049f6d308654ead2f4324de703",
+                "reference": "dbdef07edbf101049f6d308654ead2f4324de703",
                 "shasum": ""
             },
             "require": {
@@ -6767,7 +6767,7 @@
                 "illuminate/contracts": "^10.49.0|^11.45.3|^12.28.1",
                 "illuminate/routing": "^10.49.0|^11.45.3|^12.28.1",
                 "illuminate/support": "^10.49.0|^11.45.3|^12.28.1",
-                "laravel/mcp": "^0.3.4",
+                "laravel/mcp": "^0.4.1",
                 "laravel/prompts": "0.1.25|^0.3.6",
                 "laravel/roster": "^0.2.9",
                 "php": "^8.1"
@@ -6811,20 +6811,20 @@
                 "issues": "https://github.com/laravel/boost/issues",
                 "source": "https://github.com/laravel/boost"
             },
-            "time": "2025-11-26T14:12:52+00:00"
+            "time": "2025-12-05T05:54:57+00:00"
         },
         {
             "name": "laravel/mcp",
-            "version": "v0.3.4",
+            "version": "v0.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/mcp.git",
-                "reference": "0b86fb613a0df971cec89271c674a677c2cb4f77"
+                "reference": "27ab10181d25067de7ace427edb562084d0d0aa3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/mcp/zipball/0b86fb613a0df971cec89271c674a677c2cb4f77",
-                "reference": "0b86fb613a0df971cec89271c674a677c2cb4f77",
+                "url": "https://api.github.com/repos/laravel/mcp/zipball/27ab10181d25067de7ace427edb562084d0d0aa3",
+                "reference": "27ab10181d25067de7ace427edb562084d0d0aa3",
                 "shasum": ""
             },
             "require": {
@@ -6841,8 +6841,8 @@
                 "php": "^8.1"
             },
             "require-dev": {
-                "laravel/pint": "1.20.0",
-                "orchestra/testbench": "^8.36.0|^9.15.0|^10.6.0",
+                "laravel/pint": "^1.20",
+                "orchestra/testbench": "^8.36|^9.15|^10.8",
                 "pestphp/pest": "^2.36.0|^3.8.4|^4.1.0",
                 "phpstan/phpstan": "^2.1.27",
                 "rector/rector": "^2.2.4"
@@ -6884,7 +6884,7 @@
                 "issues": "https://github.com/laravel/mcp/issues",
                 "source": "https://github.com/laravel/mcp"
             },
-            "time": "2025-11-18T14:41:05+00:00"
+            "time": "2025-12-04T17:29:08+00:00"
         },
         {
             "name": "laravel/pail",
@@ -7095,16 +7095,16 @@
         },
         {
             "name": "laravel/sail",
-            "version": "v1.48.1",
+            "version": "v1.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "ef122b223f5fca5e5d88bda5127c846710886329"
+                "reference": "9177d5de1c8247166b92ea6049c2b069d2a1802f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/ef122b223f5fca5e5d88bda5127c846710886329",
-                "reference": "ef122b223f5fca5e5d88bda5127c846710886329",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/9177d5de1c8247166b92ea6049c2b069d2a1802f",
+                "reference": "9177d5de1c8247166b92ea6049c2b069d2a1802f",
                 "shasum": ""
             },
             "require": {
@@ -7154,7 +7154,7 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2025-11-17T22:05:34+00:00"
+            "time": "2025-12-03T17:16:36+00:00"
         },
         {
             "name": "mockery/mockery",

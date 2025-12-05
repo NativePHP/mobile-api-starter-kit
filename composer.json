@@ -20,7 +20,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.10.1",
         "livewire/livewire": "^3.6.4",
-        "nativephp/mobile": "^2.0.0"
+        "nativephp/mobile": "^2.1.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
