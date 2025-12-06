@@ -255,6 +255,7 @@ return [
         'storage_read' => false,
         'storage_write' => false,
         'scanner' => false,
+        'nfc' => false,
         'network_state' => true,
     ],
 
