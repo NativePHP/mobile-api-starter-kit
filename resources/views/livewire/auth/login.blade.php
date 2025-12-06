@@ -3,7 +3,7 @@
         <h1 class="text-2xl font-bold text-zinc-900 dark:text-white">Log in to your account</h1>
         <p class="mt-2  text-zinc-600 dark:text-zinc-400">Enter your email and password below to log in</p>
         <p class="text-blue-800 dark:text-blue-200 mt-6 bg-blue-50 dark:bg-blue-900 rounded-lg shadow p-4">
-            This is the NativePHP Mobile API Starter Kit. To get started you must connect your app to an API. The API endpoints for this app is included in the same codebase. You can simply run `herd share` or use something like `ngrock` to start up the server. Then update your `.env` with the API endpoint, then continue to register/login.
+            This is the NativePHP Mobile API Starter Kit. To get started you must connect your app to an API. The API endpoints for this app is included in the same codebase. You can simply run `herd share` or use something like `ngrok` to start up the server. Then update your `.env` with the API endpoint, then continue to register/login.
         </p>
     </div>
     @if($errorMessage)
